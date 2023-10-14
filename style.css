@@ -152,7 +152,6 @@ img{
 
 /*Header_nav style start*/
 .header_nav{
-    display: flex;
     background: #1FA181;
 }
 
@@ -160,9 +159,8 @@ img{
 .header_list{
     display: flex;
     flex-wrap: wrap;
-    margin-top: 10px;
-    margin-bottom: 9px;
-    margin-left: 68px;
+    padding-top: 10px;
+    padding-bottom: 9px;
 }
 
 
@@ -214,7 +212,6 @@ img{
     display: block;
     padding-right: 164px;
     padding-top: 144px;
-    margin-left: 68px;
     padding-bottom: 162px;
 }
 
@@ -249,8 +246,7 @@ img{
 /*Check style start*/
 
 .check{
-    display: flex;
-    margin-left: 68px;
+    /*display: flex;*/
     margin-top: 100px;
     margin-bottom: 160px;
 }
@@ -262,10 +258,10 @@ img{
 }
 
 .check_info{
-    margin-top: 53px;
+    padding-top: 53px;
     margin-left: 63px;
-    padding-right: 144px;
-    margin-bottom: 26px;
+    margin-right: 141px;
+    padding-bottom: 26px;
 }
 
 .check_title{
@@ -287,13 +283,20 @@ img{
 }
 
 
+.check_info-2{
+    margin-bottom: 33px;
+}
 
-
-
-
-
-
-
+li{
+    color: #1FA181;
+    padding-bottom: 9px;
+}
+li span{
+    color: #364844;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+}
 
 .check_price_info{
     display: flex;
@@ -314,4 +317,65 @@ img{
     line-height: 24px;
     text-decoration: line-through;
 }
+
+.check_record_info{
+    display: flex;
+    margin-left: 63px;
+    padding-bottom: 56px;
+}
+
+
+.check_record{
+    display: flex;
+    border-radius: 50px;
+    background: #0DBC91
+}
+
+.check_record_text{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 58px;
+    padding-right: 59px;
+    text-decoration: none;
+    color: #fff;
+}
+.check_record:hover {
+    text-decoration: none;
+    background: #00D29F;
+}
+
+.check_record2{
+    display: flex;
+    margin-left: 14px;
+    border-radius: 50px;
+    border: 1px solid #0DBC91;
+}
+
+.check_record_text2:hover{
+    text-decoration: none;
+    border-radius: 50px;
+    color: #fff;
+    background: #0DBC91;
+
+}
+
+.check_record_text2{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 57px;
+    padding-right: 59px;
+    text-decoration: none;
+    color: #0DBC91;
+}
+
+
+
 /*Check style end*/
