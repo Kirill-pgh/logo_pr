@@ -198,27 +198,27 @@ img{
 /*Intro style start*/
 
 .intro{
+    position: relative;
     display: flex;
     background: #F8FBFA;
     margin-bottom: 100px;
 }
 
-.wrapper_intro{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
+.position_relative{
+    position: relative;
 }
+
 
 
 .intro_info{
     display: block;
-    padding-right: 164px;
     padding-top: 144px;
     padding-bottom: 162px;
 }
 
 
 .intro_intro{
-    width: 400px;
+    width: 1140px;
 }
 
 
