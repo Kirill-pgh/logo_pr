@@ -211,14 +211,18 @@ img{
 
 
 .intro_info{
+    width: 1140px;
     display: block;
-    padding-top: 144px;
-    padding-bottom: 162px;
 }
 
 
 .intro_intro{
-    width: 1140px;
+    padding-top: 144px;
+    padding-bottom: 162px;
+    width: 416px;
+    position: relative;
+    z-index: 10;
+    background: #F8F8F8;
 }
 
 
@@ -254,22 +258,27 @@ img{
 /*Check style start*/
 
 .check{
-    /*display: flex;*/
-    margin-top: 100px;
 }
 
 
 .wrapper_check{
     display: flex;
-    background: #E2F0EF;
     margin-bottom: 34px;
+}
+
+
+.check_text{
+    position: absolute;
+    transform: skewX(10deg);
+    background: #E2F0EF;
+    z-index: 10;
 }
 
 .check_info{
     padding-top: 53px;
     margin-left: 63px;
-    padding-bottom: 26px;
-    width: 613px;
+    margin-bottom: 56px;
+    margin-right: 144px;
 }
 
 .check_title{
@@ -329,7 +338,6 @@ li span{
 
 .check_record_info{
     display: flex;
-    padding-bottom: 56px;
     padding-top: 26px;
 }
 
@@ -391,7 +399,8 @@ li span{
 }
 
 .check_info_img{
-    transform: skew( 12deg,0 );
+    position: relative;
+    left: 527px;
 }
 
 
