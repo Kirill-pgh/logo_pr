@@ -377,7 +377,6 @@ li span{
     border-radius: 50px;
     color: #fff;
     background: #0DBC91;
-
 }
 
 .check_record_text2{
@@ -403,6 +402,94 @@ li span{
     left: 527px;
 }
 
+
+
+
+
+.check_group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    margin-bottom: 92px;
+}
+
+.check_group-component{
+    display: flex;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+    color: #364844;
+}
+
+.component2{
+    color: #C0C0C0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.left, .right{
+    width: 34px;
+    height: 34px;
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    top: 10px;
+}
+
+.left{
+    margin-right: 36px;
+}
+
+.right{
+    margin-left: 36px;
+}
+
+
+.left::before, .left::after, .right::before, .right::after{
+    content: "";
+    position: absolute;
+
+}
+
+
+.left::before, .right::before{
+    width: 30px;
+    height: 3px;
+    background-color: grey;
+    top: 7px;   
+}
+
+
+.left::after, .right::after{
+    width: 13px;
+    height: 13px;
+}
+
+
+.left::after{
+    border-top: 3px solid grey;
+    border-left: 3px solid grey;
+    transform: rotate(-45deg);
+    top: 2px;
+    left: 2px;
+}
+
+
+ .right::after{
+    border-top: 3px solid grey;
+    border-right: 3px solid grey;
+    transform: rotate(45deg);
+    top: 2px;
+    left: 18px;
+ }
+
+ .right:hover{
+    text-decoration: none;
+    color: #0DBC91
+ }
 
 
 /*Check style end*/
